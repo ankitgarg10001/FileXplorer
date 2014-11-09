@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">fileXplorer</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Your Files</string>
+
+    <string-array name="mDrawerelements">
+        <item>Home</item>
+        <item>Pictures</item>
+        <item>Music</item>
+        <item>Movies</item>
+    </string-array>
+
+</resources>

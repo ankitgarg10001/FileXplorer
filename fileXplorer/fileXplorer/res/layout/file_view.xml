@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginBottom="10dp" >
+
+    <ImageView
+        android:id="@+id/fd_Icon1"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_marginRight="5dip" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/fd_Icon1"
+        android:singleLine="true"
+        android:text="@+id/TextView01"
+        android:textColor="#040404"
+        android:typeface="sans"
+        android:textSize="20sp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextView01"
+        android:layout_toRightOf="@+id/fd_Icon1"
+        android:text="@+id/TextView02"
+        android:textColor="#343434"
+        android:textSize="15sp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/TextViewDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/TextView01"
+        android:layout_marginLeft="5dip"
+        android:text="@+id/TextViewDate"
+        android:textColor="#343434"
+        android:textSize="15sp" >
+    </TextView>
+
+</RelativeLayout>
